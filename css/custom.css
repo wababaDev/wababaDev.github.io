@@ -1,0 +1,14 @@
+.s-intro__content-media::after {
+    background: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.7) 30%,  /* darker at the bottom */
+        rgba(0, 0, 0, 0.2) 100%  /* fades upward */
+    );
+    opacity: 0.8 !important; /* ensure override */
+}
+
+.text-logo {
+    font-size: 3.1rem;
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+}
